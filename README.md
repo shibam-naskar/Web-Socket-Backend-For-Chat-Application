@@ -2,6 +2,11 @@
 It sends Helps Sending Realtime Messeges .
 it Also Has storing property. when a user is off line and not connected to the socket it stores all messeges and deliveres to them when they are back online again.
 
+To establish a connection pass url params with the ws url
+```
+ws://<HOST>:<PORT>?<USER EMAIL>/?<USER NAME>
+```
+
 On websocket Connection Init Data
 ```
 {
